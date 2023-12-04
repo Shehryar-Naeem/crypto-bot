@@ -22,7 +22,6 @@
 }
 
 .btn {
-
   display: flex;
   align-items: center;
   background-color: var(--btn-bg-color);
@@ -30,7 +29,6 @@
   color: var(--btn-color);
   font-size: var(--btn-font-size);
   text-transform: capitalize;
-
   border-radius: var(--border-radius);
   outline: none;
   border: none;
