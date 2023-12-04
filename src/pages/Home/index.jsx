@@ -1,6 +1,5 @@
 import React from 'react'
 import './index.css'
-import { CgMenuGridO } from 'react-icons/cg';
 import { MdOutlineContactSupport } from "react-icons/md";
 import { MdUnsubscribe } from "react-icons/md";
 import { TfiWrite } from "react-icons/tfi";
@@ -17,19 +16,19 @@ const Home = () => {
       <div className='parent_submenu_container'>
         <div className='child_menu_container'>
           <ul className='menu'>
-            <li className='menu-item'><Link to='/'><span className='icon'><TbHandClick className='menu-icon' /></span>What is ModelFindr?</Link></li>
+            <li className='menu-item'><Link to='/ModelFindr'><span className='icon'><TbHandClick className='menu-icon' /></span>What is ModelFindr?</Link></li>
 
-            <li className='menu-item'><span className='icon'><MdOutlineContactSupport className='menu-icon' /></span><Link to='/'>How to request a model</Link></li>
+            <li className='menu-item'><span className='icon'><MdOutlineContactSupport className='menu-icon' /></span><Link to='/RequestModel'>How to request a model</Link></li>
 
-            <li className='menu-item'><span className='icon'><BsFillFileRuledFill  className='menu-icon' /></span><Link to='/'>Membership</Link></li>
+            <li className='menu-item'><span className='icon'><BsFillFileRuledFill  className='menu-icon' /></span><Link to='/Membership'>Membership</Link></li>
 
-            <li className='menu-item'><span className='icon'><TfiWrite className='menu-icon' /></span><Link to='/'>Support</Link></li>
+            <li className='menu-item'><span className='icon'><TfiWrite className='menu-icon' /></span><Link to='/Support'>Support</Link></li>
 
-            <li className='menu-item'><span className='icon'><SiBoost className='menu-icon' /></span><Link to='/'>Exclusive Deals</Link></li>
+            <li className='menu-item'><span className='icon'><SiBoost className='menu-icon' /></span><Link to='/ExclusiveDeals'>Exclusive Deals</Link></li>
 
-            <li className='menu-item'><span className='icon'><MdUnsubscribe className='menu-icon' /></span><Link to='/'>Crypto Beginner Guide</Link></li>
+            <li className='menu-item'><span className='icon'><MdUnsubscribe className='menu-icon' /></span><Link to='/CryptoGuide'>Crypto Beginner Guide</Link></li>
 
-            <li className='menu-item'><span className='icon'><IoWalletSharp className='menu-icon' /></span><Link to='/'>Terms and Conditions</Link></li>
+            <li className='menu-item'><span className='icon'><IoWalletSharp className='menu-icon' /></span><Link to='/TermsConditions'>Terms and Conditions</Link></li>
 
             
           </ul>
