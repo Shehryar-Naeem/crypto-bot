@@ -25,7 +25,7 @@ body {
   --border-radius:18px;
   --pad:12px;
   --menu-bg-color:#E5E5E5;
-  --menu-color:#fff;
+  --menu-color:#000;
 }
 .light{
   --btn-bg-color:#000;
