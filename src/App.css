@@ -43,7 +43,7 @@
 .menu-icon {
   width: var(--font-icon-size);
   height: var(--font-icon-size);
-  color: #000;
+  color:var(--menu-color);
  
 }
 
@@ -55,7 +55,7 @@
   width: 100%;
   margin-bottom: 2rem;
   padding: var(--pad);
-  background-color: #E5E5E5;
+  background-color: var(--menu-bg-color);
   border-radius: var(--border-radius);
 
   z-index: 200;
@@ -91,6 +91,7 @@
   font-size: var(--text-size);
   list-style: none;
   text-align: none;
+ 
   transition: 0.3s;
 }
 .child_menu_container >.menu >.menu-item:hover{
@@ -98,8 +99,8 @@
 }
 .child_menu_container >.menu >.menu-item >a{
   text-decoration: none;
-  color: #000;
-
+ 
+  color: var(--menu-color);
   text-transform: capitalize;
   font-weight: 500;
   cursor: pointer;

@@ -24,18 +24,16 @@ body {
   --font-icon-size:20px;
   --border-radius:18px;
   --pad:12px;
+  --menu-bg-color:#E5E5E5;
+  --menu-color:#fff;
+}
+.light{
+  --btn-bg-color:#000;
+  --menu-color:#fff;
+  --menu-bg-color:#35363A;
 
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-.light {
-  --bg-color: #333333; /* dark mode background color */
-  --text-color: #ffffff; /* dark mode text color */
 }

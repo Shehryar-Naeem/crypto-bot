@@ -11,10 +11,13 @@ import { TbHandClick } from "react-icons/tb";
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 const telegram = window.Telegram.WebApp
+
 function App() {
   useEffect(() => { 
 
+
     function setThemeClass() {
+      
 
      document.body.className = telegram.colorScheme;
      
