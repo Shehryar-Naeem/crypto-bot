@@ -1,0 +1,15 @@
+.back_btn{
+    text-decoration: none;
+    font-size: var(--btn-font-size);
+    line-height: var(--btn-font-size);
+    cursor: pointer;
+   margin-right: auto;
+    color: var(--menu-color);
+    padding: var(--btn-padding);
+    display: flex;
+    column-gap: 0.2rem;
+
+    border-bottom: 2px solid var(--menu-color);
+    transition: 0.3s;
+   
+}
