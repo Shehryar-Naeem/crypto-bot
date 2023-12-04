@@ -45,6 +45,7 @@
 .menu-icon {
   width: var(--font-icon-size);
   height: var(--font-icon-size);
+  color: #000;
  
 }
 
