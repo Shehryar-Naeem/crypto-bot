@@ -5,6 +5,7 @@
 }
 :root{
   --body-bg-color:#fff;
+  --body-text-color:#000;
   --btn-bg-color:#FAA919;
   --btn-padding:12px 24px;
   --md-btn-padding:10px 16px;
@@ -20,6 +21,12 @@
   --menu-bg-color:#E5E5E5;
   --menu-color:#000;
   --list-item-padding:15px 2px;
+  --heading-font-size:2rem;
+  --md-heading-font-size:1.5rem;
+  --sm-heading-font-size:1.3rem;  
+  --heading-font-weight:700;
+  --sm-heading-font-weight:600;
+  --md-heading-font-weight:500;
 }
 
 body {
@@ -30,13 +37,15 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: var(--body-bg-color);
   -moz-osx-font-smoothing: grayscale;
+  color: var(--body-text-color);
+
 }
 .dark{
   --btn-bg-color:#000;
   --menu-color:#fff;
   --menu-bg-color:#35363A;
   --body-bg-color:#000;
-
+  --body-text-color:#fff;
 }
 
 
