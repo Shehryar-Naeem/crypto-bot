@@ -18,7 +18,9 @@ body {
   --md-btn-padding:8px 16px;
   --btn-color:#fff;
   --btn-font-size:16px;
-  --md-btn-font-size:12px;
+  --text-size:20px;
+  --md-text-size:14px;
+  --md-btn-font-size:14px;
   --font-icon-size:20px;
   --border-radius:18px;
   --pad:12px;

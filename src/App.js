@@ -9,6 +9,7 @@ import { BsFillFileRuledFill } from "react-icons/bs";
 import { IoWalletSharp } from "react-icons/io5";
 import { TbHandClick } from "react-icons/tb";
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 const telegram = window.Telegram.WebApp
 function App() {
   useEffect(() => {   
@@ -20,25 +21,22 @@ function App() {
         <div className='parent_submenu_container'>
 
 
-          {/* <button className='btn'>
-            <span className='icon'><CgMenuGridO className='menu-icon' /></span>
-            view menu 
-          </button> */}
+          x
           <div className='child_menu_container'>
             <ul className='menu'>
-              <li className='menu-item'><a href='#'><span className='icon'><TbHandClick className='menu-icon' /></span>How to use crypto</a></li>
+              <li className='menu-item'><Link to='/'><span className='icon'><TbHandClick className='menu-icon' /></span>How to use crypto</Link></li>
 
-              <li className='menu-item'><span className='icon'><MdOutlineContactSupport className='menu-icon' /></span><a href='#'>Support</a></li>
+              <li className='menu-item'><span className='icon'><MdOutlineContactSupport className='menu-icon' /></span><Link to='/'>Support</Link></li>
 
-              <li className='menu-item'><span className='icon'><BsFillFileRuledFill  className='menu-icon' /></span><a href='#'>Terms and conditions</a></li>
+              <li className='menu-item'><span className='icon'><BsFillFileRuledFill  className='menu-icon' /></span><Link to='/'>Terms and conditions</Link></li>
 
-              <li className='menu-item'><span className='icon'><TfiWrite className='menu-icon' /></span><a href='#'>Proposals</a></li>
+              <li className='menu-item'><span className='icon'><TfiWrite className='menu-icon' /></span><Link to='/'>Proposals</Link></li>
 
-              <li className='menu-item'><span className='icon'><SiBoost className='menu-icon' /></span><a href='#'>Boosts</a></li>
+              <li className='menu-item'><span className='icon'><SiBoost className='menu-icon' /></span><Link to='/'>Boosts</Link></li>
 
-              <li className='menu-item'><span className='icon'><MdUnsubscribe className='menu-icon' /></span><a href='#'>Subscription</a></li>
+              <li className='menu-item'><span className='icon'><MdUnsubscribe className='menu-icon' /></span><Link to='/'>Subscription</Link></li>
 
-              <li className='menu-item'><span className='icon'><IoWalletSharp className='menu-icon' /></span><a href='#'>Wallet</a></li>
+              <li className='menu-item'><span className='icon'><IoWalletSharp className='menu-icon' /></span><Link to='/'>Wallet</Link></li>
 
               
             </ul>
