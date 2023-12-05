@@ -16,19 +16,19 @@ const Home = () => {
       <div className='parent_submenu_container'>
         <div className='child_menu_container'>
           <ul className='menu'>
-            <li className='menu-item'><Link to='/ModelFindr'><span className='icon'><TbHandClick className='menu-icon' /></span>What is ModelFindr?</Link></li>
+          <Link to='/ModelFindr'><li className='menu-item'><span className='icon'><TbHandClick className='menu-icon' /></span>What is ModelFindr?</li></Link>
 
-            <li className='menu-item'><span className='icon'><MdOutlineContactSupport className='menu-icon' /></span><Link to='/RequestModel'>How to request a model</Link></li>
+          <Link to='/RequestModel'> <li className='menu-item'><span className='icon'><MdOutlineContactSupport className='menu-icon' /></span>How to request a model</li></Link>
 
-            <li className='menu-item'><span className='icon'><BsFillFileRuledFill  className='menu-icon' /></span><Link to='/Membership'>Membership</Link></li>
+          <Link to='/Membership'><li className='menu-item'><span className='icon'><BsFillFileRuledFill  className='menu-icon' /></span>Membership</li></Link>
 
-            <li className='menu-item'><span className='icon'><TfiWrite className='menu-icon' /></span><Link to='/Support'>Support</Link></li>
+          <Link to='/Support'> <li className='menu-item'><span className='icon'><TfiWrite className='menu-icon' /></span>Support</li></Link>
 
-            <li className='menu-item'><span className='icon'><SiBoost className='menu-icon' /></span><Link to='/ExclusiveDeals'>Exclusive Deals</Link></li>
+          <Link to='/ExclusiveDeals'><li className='menu-item'><span className='icon'><SiBoost className='menu-icon' /></span>Exclusive Deals</li></Link>
 
-            <li className='menu-item'><span className='icon'><MdUnsubscribe className='menu-icon' /></span><Link to='/CryptoGuide'>Crypto Beginner Guide</Link></li>
+          <Link to='/CryptoGuide'> <li className='menu-item'><span className='icon'><MdUnsubscribe className='menu-icon' /></span>Crypto Beginner Guide</li></Link>
 
-            <li className='menu-item'><span className='icon'><IoWalletSharp className='menu-icon' /></span><Link to='/TermsConditions'>Terms and Conditions</Link></li>
+          <Link to='/TermsConditions'>  <li className='menu-item'><span className='icon'><IoWalletSharp className='menu-icon' /></span>Terms and Conditions</li></Link>
 
             
           </ul>
