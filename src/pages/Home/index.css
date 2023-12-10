@@ -3,9 +3,9 @@
     width: 100%;
   }
   .parent_menu_container {
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    right: 0;
+    right: 0; */
     z-index: 100;
     width: 100%; 
     padding: 1rem;
@@ -48,9 +48,9 @@
   }
   
   .child_menu_container {
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
     max-width: 668px;
     width: 100%;
     margin-bottom: 2rem;
